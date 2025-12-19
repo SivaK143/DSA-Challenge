@@ -1,0 +1,15 @@
+package Pattern;
+
+public class Seventh {
+
+    public static void main(String[] args) {
+
+        for(char ch = 'a';ch<='e'; ch++){
+            for(int j = 1; j<=5; j++){
+                System.out.print(ch+ " ");
+            }
+            System.out.println();
+        }
+    }
+
+}
