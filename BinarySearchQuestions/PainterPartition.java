@@ -1,5 +1,7 @@
 package BinarySearchQuestions;
 
+import java.util.Arrays;
+
 public class PainterPartition {
 
     static int painterPartition(int []arr, int painters){
@@ -29,6 +31,9 @@ public class PainterPartition {
 
     public static void main(String[] args) {
         int arr[]={5,10,30,20,15};
+        int arr1[]={2,34,3,1,8};
+        Arrays.sort(arr1);
+        System.out.println(Arrays.toString(arr1));
         int k=3;
         System.out.println(painterPartition(arr, k));
     }
