@@ -3,7 +3,7 @@ package LeetCodeProblems1;
 public class AddDigits {
 
     public static void main(String[] args) {
-        int num = 38;
+        int num = 91;
         while(num>9) {
             int ans = 0, rem;
             while (num != 0) {
